@@ -29,40 +29,38 @@ def main():
 	# For the Raspberry Pi this means you should hook up to the only exposed I2C bus
 	# from the main GPIO header and the library will figure out the bus number based
 	# on the Pi's revision.
-	sensor = MCP9808.MCP9808()
+        sensor = MCP9808.MCP9808()
 
 	#print heading with date/time at begining of data collection "cycle"
 
-	#print(datetime.ctime(datetime.now()))		
+	#print(datetime.ctime(datetime.now()))
 
 	# Initialize communication with the sensor.
-	sensor.begin()
+        sensor.begin()
 
 	# Optionally you can override the address and/or bus number:
 	#sensor = MCP9808.MCP9808(address=0x20, busnum=2)
-	
-        
-f = open(logging_file, 'a+')
-f.write('\n"{:%H:%M:%S}",'.format(dt))
-f.write(str('MCP9808_temp      DHT22_hum%    KHT22_temp'))
-                
-
-print('MCP9808_temp	DHT22_hum	DHT22_temp')
-while True:
-        s = DHT22.sensor(pi, 4)
-        s.trigger()
-        sleep(1)
-        temp = sensor.readTempC()
-        print('{0:0.4F}	{1:0.2F}	{2:0.2F}'.format(temp, s.humidity()/1., s.temperature()/1.))
 
         f = open(logging_file, 'a+')
-        f.write('\n"{:%H:%M:%S}",'.format(dt)) 
-        f.write(str(temp))
-        f.close
+        f.write('\n"{:%H:%M:%S}",'.format(dt))
+        f.write(str('MCP9808_temp      DHT22_hum%    KHT22_temp'))
 
-        sleep(30)
-        s.cancel()
-        pi.stop
+        print('MCP9808_temp	DHT22_hum	DHT22_temp')
+        while True:
+                s = DHT22.sensor(pi, 4)
+                s.trigger()
+                sleep(1)
+                temp = sensor.readTempC()
+                print('{0:0.4F}	{1:0.2F}	{2:0.2F}'.format(temp, s.humidity()/1., s.temperature()/1.))
+
+                f = open(logging_file, 'a+')
+                f.write('\n"{:%H:%M:%S}",'.format(dt))
+                f.write(str(temp))
+                f.close
+
+                sleep(30)
+                s.cancel()
+                pi.stop
 
 if __name__=="__main__":
 	main()
