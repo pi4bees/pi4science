@@ -435,3 +435,5 @@ sudo ./run_USB.py
 sudo python run_USB.py
 git commit -am "updated usb push: 
 git push origin master
+git commit -am "update"
+git push origin master

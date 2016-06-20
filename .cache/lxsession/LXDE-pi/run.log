@@ -216,3 +216,201 @@ cat: /proc/0/cmdline: No such file or directory
 ** Message: wlan0: Received scan results
 
 (lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(pcmanfm:701): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:701): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: wlan0: Received scan results
+
+(pcmanfm:701): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+
+** (lxpanel:700): WARNING **: lxpanel : X error: BadWindow (invalid Window parameter)
+** Message: wlan0: Received scan results
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+
+(pcmanfm:701): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:701): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:701): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(pcmanfm:701): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:701): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+
+(pcmanfm:701): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:701): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: wlan0: Received scan results
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:700): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+
+** (epiphany-browser:1934): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(lxpanel:700): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+
+** (epiphany-browser:1934): WARNING **: Error caching form data: The name org.freedesktop.secrets was not provided by any .service files
+** Message: wlan0: Received scan results
+** Message: console message:  @0: Blocked a frame with origin "https://plus.google.com" from accessing a frame with origin "https://mail.google.com". Protocols, domains, and ports must match.
+
+** Message: console message:  @0: Blocked a frame with origin "https://hangouts.google.com" from accessing a frame with origin "https://mail.google.com". Protocols, domains, and ports must match.
+
+** Message: console message:  @0: Blocked a frame with origin "https://apis.google.com" from accessing a frame with origin "https://mail.google.com". Protocols, domains, and ports must match.
+
+** Message: wlan0: Received scan results

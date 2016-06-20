@@ -10,7 +10,7 @@ from datetime import datetime
 import os, glob, time, datetime
 
 
-logging_folder = glob.glob('/media/pi/usb0/*')[0]
+logging_folder = glob.glob('/media/usb0/')[0]
 dt = datetime.datetime.now()
 file_name = "temp_log_{:%Y_%m_%d}.csv".format(dt)
 logging_file = logging_folder + '/' + file_name
@@ -22,7 +22,7 @@ def c_to_f(c):
         return c * 9.0 / 5.0 + 32.0
 
 def main():
-	pi = pigpio.pi()
+        pi = pigpio.pi()
 
 	# Default constructor will use the default I2C address (0x18) and pick a default I2C bus.
 	#
@@ -41,26 +41,28 @@ def main():
 	# Optionally you can override the address and/or bus number:
 	#sensor = MCP9808.MCP9808(address=0x20, busnum=2)
 	
-
-
-	print('MCP9808_temp	DHT22_hum	DHT22_temp')
-	while True:
-		s = DHT22.sensor(pi, 4)
-		s.trigger()
-		sleep(10)
-		temp = sensor.readTempC()
-		print('{0:0.4F}	{1:0.2F}	{2:0.2F}'.format(temp, s.humidity()/1., s.temperature()/1.))
-
-                f = open(logging_file, 'a+')
-
         
-	f.write('\n"{:%H:%M:%S}",'.format(dt))
-	f.write(str(temp))
-	f.close
+f = open(logging_file, 'a+')
+f.write('\n"{:%H:%M:%S}",'.format(dt))
+f.write(str('MCP9808_temp      DHT22_hum%    KHT22_temp'))
+                
 
-	sleep(30)
-	s.cancel()
-	pi.stop
+print('MCP9808_temp	DHT22_hum	DHT22_temp')
+while True:
+        s = DHT22.sensor(pi, 4)
+        s.trigger()
+        sleep(1)
+        temp = sensor.readTempC()
+        print('{0:0.4F}	{1:0.2F}	{2:0.2F}'.format(temp, s.humidity()/1., s.temperature()/1.))
+
+        f = open(logging_file, 'a+')
+        f.write('\n"{:%H:%M:%S}",'.format(dt)) 
+        f.write(str(temp))
+        f.close
+
+        sleep(30)
+        s.cancel()
+        pi.stop
 
 if __name__=="__main__":
 	main()

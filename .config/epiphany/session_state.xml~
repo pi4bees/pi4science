@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <session>
-	 <window x="422" y="231" width="600" height="500" active-tab="0" role="epiphany-window-7c5ad0cf">
-	 	 <embed url="about:overview" title="Blank page" loading="true"/>
+	 <window x="0" y="231" width="600" height="500" active-tab="0" role="epiphany-window-38359d7b">
+	 	 <embed url="https://mail.google.com/mail/u/0/" title="Most Visited" loading="true"/>
 	 </window>
 </session>
