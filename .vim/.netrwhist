@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/pi/PIGPIO'
+let g:netrw_dirhist_2='/home/pi'
+let g:netrw_dirhist_3='/home/pi/Adafruit_Python_MCP9808'
+let g:netrw_dirhist_4='/home/pi/Adafruit_Python_MCP9808/examples'
+let g:netrw_dirhist_5='/home/pi'
+let g:netrw_dirhist_6='/home/pi/Adafruit_Python_MCP9808'
+let g:netrw_dirhist_7='/home/pi/Adafruit_Python_MCP9808/examples'
