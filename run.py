@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import PIGPIO
+import pigpio
 from time import sleep
 from PIGPIO import DHT22
 import Adafruit_MCP9808.MCP9808 as MCP9808
@@ -11,7 +11,7 @@ def c_to_f(c):
         return c * 9.0 / 5.0 + 32.0
 
 def main():
-	#pi = pigpio.pi()
+	pi = pigpio.pi()
 
 	# Default constructor will use the default I2C address (0x18) and pick a default I2C bus.
 	#
