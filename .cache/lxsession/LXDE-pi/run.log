@@ -69,13 +69,13 @@
 ** Message: environement.vala:219: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
 ** Message: environement.vala:224: Exporting XDG_DATA_DIRS
 ** Message: utils.vala:79: Config system location : /etc/xdg/lxsession/LXDE-pi
+xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
 ** Message: utils.vala:85: System system path location : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
 ** Message: utils.vala:89: Final file used : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+xprop:  no such property "_NET_DESKTOP_NAMES"
 ** Message: options.vala:164: Activate xsettings_manager build-in
 ** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
 ** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
-xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
-xprop:  no such property "_NET_DESKTOP_NAMES"
 ** Message: app.vala:717: polkit separate
 ** Message: app.vala:717: polkit separate
 ** Message: app.vala:76: Launching lxpolkit 
@@ -85,9 +85,9 @@ xprop:  no such property "_NET_DESKTOP_NAMES"
 ** Message: app.vala:76: Launching lxpanel 
 ** Message: app.vala:76: Launching pcmanfm 
 
-** (lxsession:655): WARNING **: app.vala:86: Failed to execute child process "xscreensaver" (No such file or directory)
+** (lxsession:684): WARNING **: app.vala:86: Failed to execute child process "xscreensaver" (No such file or directory)
 
-** (lxsession:655): WARNING **: app.vala:87: Error when launching xscreensaver
+** (lxsession:684): WARNING **: app.vala:87: Error when launching xscreensaver
 ** Message: options.vala:107: Create build-in Clipboard
 ** Message: main.vala:429: Check keymap_mode user
 ** Message: main.vala:432: Create Option Keymap
@@ -97,9 +97,9 @@ xprop:  no such property "_NET_DESKTOP_NAMES"
 ** Message: options.vala:44: Options - Launch command setxkbmap -layout us -variant  -options  
 Error!   Option "-options" not recognized
 ** Message: app.vala:76: Launching /usr/bin/ssh-agent 
-SSH_AUTH_SOCK=/tmp/ssh-zEdw6h8EhVQb/agent.714; export SSH_AUTH_SOCK;
-SSH_AGENT_PID=717; export SSH_AGENT_PID;
-echo Agent pid 717;
+SSH_AUTH_SOCK=/tmp/ssh-4pgeuQsn0Awb/agent.766; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=771; export SSH_AGENT_PID;
+echo Agent pid 771;
 lxkeymap found
 Obt-Message: Xinerama extension is not present on the server
 ** Message: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
@@ -107,9 +107,9 @@ Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.
 ** Message: x-terminal-emulator has very limited support, consider choose another terminal
 ** Message: x-terminal-emulator has very limited support, consider choose another terminal
 
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:757): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:757): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 /usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: Unknown property: GtkMenu.ubuntu-local
   builder.add_from_file(ui_filename)
 /usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called expand
@@ -121,7 +121,7 @@ Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.
 ** Message: Connecting ...
 ** Message: Status changed to down
 
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_dialog_response: assertion 'GTK_IS_DIALOG (dialog)' failed
+(lxpanel:757): Gtk-CRITICAL **: IA__gtk_dialog_response: assertion 'GTK_IS_DIALOG (dialog)' failed
 ** Message: Status changed to opened
 ** Message: Connected to dhcpcd-6.7.1
 ** Message: Status changed to connecting
@@ -137,154 +137,26 @@ Lxkeymap autostart running...
 ** Message: wlan0: Configured 192.168.1.106/24
 ** Message: Status changed to connected
 
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:757): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:757): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 
-(pcmanfm:710): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(pcmanfm:758): Gtk-WARNING **: Radio group does not contain an action with value '0'
 
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:757): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:757): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 cat: /proc/0/cmdline: No such file or directory
 
-** (lxpanel:709): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** (lxpanel:757): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+
+(lxpanel:757): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+(lxpanel:757): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-** Message: wlan0: Received scan results
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-
-(pcmanfm:710): Gtk-WARNING **: Radio group does not contain an action with value '0'
-
-(pcmanfm:710): Gtk-WARNING **: Radio group does not contain an action with value '0'
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-
-(pcmanfm:710): Gtk-WARNING **: Radio group does not contain an action with value '0'
-
-(pcmanfm:710): Gtk-WARNING **: Radio group does not contain an action with value '0'
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-cat: /proc/0/cmdline: No such file or directory
-
-** (lxpanel:709): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
-** Message: wlan0: Received scan results
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-cat: /proc/0/cmdline: No such file or directory
-
-** (lxpanel:709): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
-
-(pcmanfm:710): Gtk-WARNING **: Radio group does not contain an action with value '0'
-
-(pcmanfm:710): Gtk-WARNING **: Radio group does not contain an action with value '0'
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-
-** (lxpanel:709): WARNING **: lxpanel : X error: BadWindow (invalid Window parameter)
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-
-** (epiphany-browser:1169): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-** Message: wlan0: Received scan results
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-** Message: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
-
-** (epiphany-browser:1169): WARNING **: Error caching form data: The name org.freedesktop.secrets was not provided by any .service files
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 2251 was not found when attempting to remove it
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 4013 was not found when attempting to remove it
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 4909 was not found when attempting to remove it
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 6396 was not found when attempting to remove it
-** Message: wlan0: Received scan results
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 7646 was not found when attempting to remove it
-** Message: wlan0: Received scan results
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 9443 was not found when attempting to remove it
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 34241 was not found when attempting to remove it
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 35036 was not found when attempting to remove it
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 35395 was not found when attempting to remove it
-** Message: wlan0: Received scan results
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 13135 was not found when attempting to remove it
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 35883 was not found when attempting to remove it
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 43654 was not found when attempting to remove it
-** Message: wlan0: Received scan results
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 44085 was not found when attempting to remove it
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 47840 was not found when attempting to remove it
-** Message: wlan0: Received scan results
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-cat: /proc/0/cmdline: No such file or directory
-
-** (lxpanel:709): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
-
-** (lxpanel:709): WARNING **: lxpanel : X error: BadWindow (invalid Window parameter)
-
-** (lxpanel:709): WARNING **: lxpanel : X error: BadWindow (invalid Window parameter)
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-
-(pcmanfm:710): Gtk-WARNING **: Radio group does not contain an action with value '0'
-
-(pcmanfm:710): Gtk-WARNING **: Radio group does not contain an action with value '0'
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-** Message: wlan0: Received scan results
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 49107 was not found when attempting to remove it
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 54974 was not found when attempting to remove it
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 55897 was not found when attempting to remove it
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 58692 was not found when attempting to remove it
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 58924 was not found when attempting to remove it
-** Message: wlan0: Received scan results
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 65453 was not found when attempting to remove it
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 67729 was not found when attempting to remove it
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-** Message: wlan0: Received scan results
-
-(lxpanel:709): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-
-(epiphany-browser:1169): GLib-CRITICAL **: Source ID 59373 was not found when attempting to remove it
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results

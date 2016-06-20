@@ -240,3 +240,17 @@ run.py
 python run.py
 import pigpio
 sudo import pigpio
+python run.py
+host
+host user
+python run.py
+git config --global user.name "pi4bees"
+git config --global user.email "hns36@cornell.edu"
+git init
+cd /Users/pi4bees/pi/run_USB.py
+git remote add origin https://github.com/pi4bees/pi4science.git
+git pull origin master
+git add .
+git commit -m "initial source commit"
+sudo killall pigpiod
+python run.py
