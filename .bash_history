@@ -357,3 +357,81 @@ sudo PIGPIOD
 sudo killall pigpiod
 sudo pigpiod
 ./run.py
+git add run.py
+git commit run.py
+git push
+git commit -am "this is my commit message lol"
+git push origin master
+vim
+sudo killall pigpio
+sudo killall pigpiod
+sudo pigpiod
+vim run_USB.py
+sudo python run_USB.py
+vim run_USB.py
+sudo python run_USB.py
+suod killall pigpiod
+sudo killall pigpiod
+sudo pigpiod
+sudo killall pigpiod
+sudo pigpiod
+sudo python run_USB.py
+sudo killall pigpiod
+sudo pigpiod
+sudo killall pigpiod
+sudo pigpiod
+sudo killall pigpiod
+sudo pigpiod
+sudo python run_USB.py
+cd'/sys/bus/w1/devices/
+n
+
+
+sudo killall pigpiod
+sudo pigpiod
+sudo killall pigpiod
+cd'sys/bus/w1/devices/
+ls
+/medua
+/.media
+./media
+sudo ./media
+sudo /media
+cd /media
+ls
+d
+cd
+apt-get install usbmount
+sudo apt-get install usbmount
+sudo python run_USB.py
+cd /sys/bus/w1/devices/
+sudo apt-get install samba
+ls
+./pi
+sudo killall pigpiod
+mkdir /media/usb
+sudo nano /etc/fstab
+mount /media/usb
+sudo mount /media/usb
+sudo python run_USB.py 
+sudo pigpio
+sudo pigpiod
+sudo killall pigpiod
+sudo pigiod
+sudo pigpiod
+sudo python run_USB.py 
+ls usb
+lsusb
+mkdir /media/usb
+sudo mount /media/usb
+mkdir usbdrv
+sudo blkid
+sudo nano /etc/fstab
+sudo reboot
+sudo killall pigpiod
+vim ./run_USB.py
+sudo ./run_USB.py
+./run_USB.py
+sudo python run_USB.py
+git commit -am "updated usb push: 
+git push origin master

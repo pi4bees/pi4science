@@ -15,9 +15,9 @@ $
 
 # Command Line History (newest to oldest):
 :wq
+:q
 :q!
 :qw
-:q
 :tabe .
 :q1
 :tabe 
@@ -69,22 +69,29 @@ $
 "9	LINE	0
 		# Initialize communication with the sensor.
 		sensor.begin()
+"k	CHAR	0
+	l;lkjdsalsk€kb€kb€kb€kb€kb€kb€kD€kD€kD€kD€kD€kd€kd€kd€kd€ku€kd€kl€kd€kr€kd€kl€kr€kd€kr€kr€kr€kr€kd€kd
+"q	CHAR	0
+	
 ""-	CHAR	0
-	 
+	)
 
 # File marks:
-'0  6  21  ~/run.py
-'1  20  0  ~/run.py
-'2  25  36  ~/run.py
-'3  25  27  ~/run.py
-'4  47  1  ~/run.py
-'5  31  14  ~/run.py
-'6  42  0  ~/run.py
-'7  35  42  ~/run.py
-'8  41  52  ~/run.py
-'9  40  0  ~/run.py
+'0  1  0  ~/run_USB.py
+'1  64  6  ~/run_USB.py
+'2  65  0  ~/run_USB.py
+'3  6  21  ~/run.py
+'4  20  0  ~/run.py
+'5  25  36  ~/run.py
+'6  25  27  ~/run.py
+'7  47  1  ~/run.py
+'8  31  14  ~/run.py
+'9  42  0  ~/run.py
 
 # Jumplist (newest first):
+-'  1  0  ~/run_USB.py
+-'  64  6  ~/run_USB.py
+-'  65  0  ~/run_USB.py
 -'  6  21  ~/run.py
 -'  1  0  ~/run.py
 -'  20  0  ~/run.py
@@ -178,8 +185,32 @@ $
 -'  1  0  ~/Adafruit_MCP9808_Library/Adafruit_MCP9808.cpp
 -'  2  28  ~/Adafruit_MCP9808_Library/main.cpp
 -'  1  0  ~/Adafruit_MCP9808_Library/main.cpp
+-'  6  21  ~/run.py
 
 # History of marks within files (newest to oldest):
+
+> ~/run_USB.py
+	"	1	0
+	^	64	7
+	.	65	0
+	+	12	24
+	+	9	46
+	+	14	41
+	+	16	49
+	+	18	16
+	+	19	0
+	+	19	0
+	+	59	0
+	+	55	8
+	+	56	39
+	+	57	0
+	+	58	8
+	+	64	14
+	+	56	26
+	+	66	0
+	+	64	7
+	+	13	42
+	+	65	0
 
 > ~/run.py
 	"	6	21

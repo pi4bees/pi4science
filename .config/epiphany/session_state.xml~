@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <session>
-	 <window x="249" y="105" width="600" height="500" active-tab="1" role="epiphany-window-25ba75da">
-	 	 <embed url="https://mail.google.com/mail/u/0/#inbox" title="Inbox (1) - hailey.n.scofield@gmail.com - Gmail"/>
-	 	 <embed url="https://hangouts.google.com/webchat/u/0/frame?v=1466119367&amp;hl=en&amp;pvt=AMP3uWYy87_CRGiAt6j5BilCafTSr6Jg_8Pz2TI1vNHB1JuVM8u2Ny3OKJ6pckhwOyiEKcWgriQydKJ9CXGm25O49i2I4FXBJw%3D%3D&amp;prop=gmail#tgtn_d1web6" title="Blank page" loading="true"/>
+	 <window x="422" y="231" width="600" height="500" active-tab="0" role="epiphany-window-7c5ad0cf">
+	 	 <embed url="about:overview" title="Blank page" loading="true"/>
 	 </window>
 </session>
