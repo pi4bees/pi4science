@@ -42,27 +42,27 @@ def main():
 	#sensor = MCP9808.MCP9808(address=0x20, busnum=2)
 	
         
-f = open(logging_file, 'a+')
-f.write('\n"{:%H:%M:%S}",'.format(dt))
-f.write(str('MCP9808_temp      DHT22_hum%    KHT22_temp'))
+        f = open(logging_file, 'a+')
+        f.write('\n"{:%H:%M:%S}",'.format(dt))
+        f.write(str('MCP9808_temp      DHT22_hum%    KHT22_temp'))
                 
 
-print('MCP9808_temp	DHT22_hum	DHT22_temp')
-while True:
-        s = DHT22.sensor(pi, 4)
-        s.trigger()
-        sleep(1)
-        temp = sensor.readTempC()
-        print('{0:0.4F}	{1:0.2F}	{2:0.2F}'.format(temp, s.humidity()/1., s.temperature()/1.))
+	print('MCP9808_temp	DHT22_hum	DHT22_temp')
+    	while True:
+        	s = DHT22.sensor(pi, 4)
+                s.trigger()
+                sleep(1)
+                temp = sensor.readTempC()
+                print('{0:0.4F}	{1:0.2F}	{2:0.2F}'.format(temp, s.humidity()/1., s.temperature()/1.))
+                
+		f = open(logging_file, 'a+')
+		f.write('\n"{:%H:%M:%S}",'.format(dt)) 
+                f.write(str(temp))
+                f.close
 
-        f = open(logging_file, 'a+')
-        f.write('\n"{:%H:%M:%S}",'.format(dt)) 
-        f.write(str(temp))
-        f.close
-
-        sleep(30)
-        s.cancel()
-        pi.stop
+                sleep(30)
+                s.cancel()
+                pi.stop
 
 if __name__=="__main__":
 	main()

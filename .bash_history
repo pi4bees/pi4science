@@ -437,3 +437,27 @@ git commit -am "updated usb push:
 git push origin master
 git commit -am "update"
 git push origin master
+sudo killall pigpio
+sudo killall pigpiod
+sudo pigpiod
+sudo python run_USB.py
+lsusb
+sudo python run_USB.py
+cd /media/pi/usb0/
+cd media/pi/usb0
+cd media/pi/usb0/
+cd pi/media/usb0
+cd media/usb0
+cd /media/usb0
+cd
+sudo python run_USB.py
+sudo killall pigpiod
+sudo pigpiod
+sudo python run_USB.py
+sudo git commit -am "update reading fine"
+git commit -am "update again"
+git push origin master
+sudo python run_USB.py
+sudo vim./run_USB.py
+vim run_USB.py
+sudo python run_USB.py
