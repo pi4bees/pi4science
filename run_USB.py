@@ -5,12 +5,6 @@ from PIGPIO import DHT22
 import Adafruit_MCP9808.MCP9808 as MCP9808
 from datetime import datetime
 
-log_period = 60 # seconds
-
-loging_folder = glob.glob('/media/*;)[0]
-dt = datetime.datetime.now()
-file name = "pi_1_temp_{:%Y_%m_%d}.csv".format(dt)
-logging_file = logging_folder + '/' + file_name                          
 
 # Define a function to convert celsius to fahrenheit.
 def c_to_f(c):
@@ -35,15 +29,7 @@ def main():
 
 	# Optionally you can override the address and/or bus number:
 	#sensor = MCP9808.MCP9808(address=0x20, busnum=2)
-
-
-
-
-	def read_temp_raw():
-                f = open(defice_file, 'r')
-                lines = f.readlines()
-                f.close
-                return lines
+	
 
 
 	print('MCP9808_temp	DHT22_hum	DHT22_temp')
@@ -54,7 +40,7 @@ def main():
 		temp = sensor.readTempC()
 		print('{0:0.4F}	{1:0.2F}	{2:0.2F}'.format(temp, s.humidity()/1., s.temperature()/1.))
 		sleep(30)
-                s.cancel()
+		s.cancel()
 	pi.stop
 
 if __name__=="__main__":
