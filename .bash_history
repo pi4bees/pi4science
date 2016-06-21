@@ -475,3 +475,41 @@ sudo python run_USB.py
 git commit -am "having a hard time debugging"
 git push origin master
 sudo python run_USB.py
+git commit -am "working version of USB.py program"
+git push origin master
+sudo python run_USB.py
+cd
+ls
+rm pi4bees_log_test2.csv
+rm pi4bees_log_test2.txt
+rm media/usb0/pi4bees_log_test.csv
+sudo killall pigpiod
+sudo pigpiod
+sudo python run_USB.py
+rm pi4bees1_log_test.csv
+rm media/usb0/pi4bees1_log_test.csv
+sudo python run_USB.py
+rm media/usb0/pi4bees1_log_test.csv
+./media
+sudo ./media
+/media
+sudo /media
+./media
+ls /media
+ls /media/usb0
+rm media/usb0/pi4bees1_log_test2016_06_21.csv
+rm pi4bees1_log_test2016_06_21.csv
+sudo rm pi4bees1_log_test2016_06_21.csv
+cd /media/usb0
+rm pi4bees1_log_test2016_06_21.csv
+sudo rm pi4bees1_log_test2016_06_21.csv
+sudo rm pi4bees1_log_test22016_06_21.csv
+sudo rm pi4bees1_log_2016_06_21.csv
+sudo rm pi4bees1_log_2016_06_20.csv
+sudo rm pi4bees12016_06_21.csv
+sudo rm tem_log_2016_06_20.csv
+sudo rm temp_log_2016_06_20.csv
+sudo killall pigpio
+sudo killall pigpiod
+sudo pigpiod
+sudo python run_USB.py

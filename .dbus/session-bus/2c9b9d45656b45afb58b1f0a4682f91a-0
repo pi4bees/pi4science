@@ -3,6 +3,6 @@
 # If the DBUS_SESSION_BUS_ADDRESS environment variable is set, it will
 # be used rather than this file.
 # See "man dbus-launch" for more details.
-DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-FVVQznKhyK,guid=b61e26b99ecfa2a9ec2c393757687412
-DBUS_SESSION_BUS_PID=765
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-GcqsY2PQst,guid=fa7ce8068f7becec5f4c3925576974d8
+DBUS_SESSION_BUS_PID=766
 DBUS_SESSION_BUS_WINDOWID=4194305

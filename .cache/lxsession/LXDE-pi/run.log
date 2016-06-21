@@ -85,9 +85,9 @@ xprop:  no such property "_NET_DESKTOP_NAMES"
 ** Message: app.vala:76: Launching lxpanel 
 ** Message: app.vala:76: Launching pcmanfm 
 
-** (lxsession:737): WARNING **: app.vala:86: Failed to execute child process "xscreensaver" (No such file or directory)
+** (lxsession:738): WARNING **: app.vala:86: Failed to execute child process "xscreensaver" (No such file or directory)
 
-** (lxsession:737): WARNING **: app.vala:87: Error when launching xscreensaver
+** (lxsession:738): WARNING **: app.vala:87: Error when launching xscreensaver
 ** Message: options.vala:107: Create build-in Clipboard
 ** Message: main.vala:429: Check keymap_mode user
 ** Message: main.vala:432: Create Option Keymap
@@ -97,19 +97,19 @@ xprop:  no such property "_NET_DESKTOP_NAMES"
 ** Message: options.vala:44: Options - Launch command setxkbmap -layout us -variant  -options  
 Error!   Option "-options" not recognized
 ** Message: app.vala:76: Launching /usr/bin/ssh-agent 
-SSH_AUTH_SOCK=/tmp/ssh-TJK9gOwnGYXf/agent.857; export SSH_AUTH_SOCK;
-SSH_AGENT_PID=860; export SSH_AGENT_PID;
-echo Agent pid 860;
+SSH_AUTH_SOCK=/tmp/ssh-30kjToK4qqKM/agent.844; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=846; export SSH_AGENT_PID;
+echo Agent pid 846;
 lxkeymap found
-Obt-Message: Xinerama extension is not present on the server
 ** Message: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+Obt-Message: Xinerama extension is not present on the server
 Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
 ** Message: x-terminal-emulator has very limited support, consider choose another terminal
 ** Message: x-terminal-emulator has very limited support, consider choose another terminal
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 /usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: Unknown property: GtkMenu.ubuntu-local
   builder.add_from_file(ui_filename)
 /usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called expand
@@ -121,7 +121,7 @@ Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.
 ** Message: Connecting ...
 ** Message: Status changed to down
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_dialog_response: assertion 'GTK_IS_DIALOG (dialog)' failed
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_dialog_response: assertion 'GTK_IS_DIALOG (dialog)' failed
 ** Message: Status changed to opened
 ** Message: Connected to dhcpcd-6.7.1
 ** Message: Status changed to connecting
@@ -137,1175 +137,138 @@ Lxkeymap autostart running...
 ** Message: wlan0: Configured 192.168.1.106/24
 ** Message: Status changed to connected
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 
-(pcmanfm:853): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
 
-(pcmanfm:853): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 ** Message: wlan0: Received scan results
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 ** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
 
-(pcmanfm:853): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
 
-(pcmanfm:853): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 cat: /proc/0/cmdline: No such file or directory
 
-** (lxpanel:852): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
+** (lxpanel:837): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 ** Message: wlan0: Received scan results
 
-(pcmanfm:853): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 
-(pcmanfm:853): Gtk-WARNING **: Radio group does not contain an action with value '0'
-
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 ** Message: wlan0: Received scan results
 
-(pcmanfm:853): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 
-(pcmanfm:853): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 cat: /proc/0/cmdline: No such file or directory
 
-** (lxpanel:852): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** (lxpanel:837): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
 ** Message: wlan0: Received scan results
 
-** (lxpanel:852): WARNING **: lxpanel : X error: BadWindow (invalid Window parameter)
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: wlan0: Received scan results
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** (pi-packages:1351): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 
-(pcmanfm:853): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(pi-packages:1351): Gtk-CRITICAL **: gtk_widget_get_style_context: assertion 'GTK_IS_WIDGET (widget)' failed
 
-(pcmanfm:853): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(pi-packages:1351): Gtk-CRITICAL **: gtk_style_context_add_class: assertion 'GTK_IS_STYLE_CONTEXT (context)' failed
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: wlan0: Received scan results
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+** (alacarte:1383): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(alacarte:1383): Gtk-CRITICAL **: gtk_accel_label_set_accel_closure: assertion 'gtk_accel_group_from_accel_closure (accel_closure) != NULL' failed
+
+(alacarte:1383): Gtk-CRITICAL **: gtk_accel_label_set_accel_closure: assertion 'gtk_accel_group_from_accel_closure (accel_closure) != NULL' failed
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+** (lxpanel:837): WARNING **: lxpanel : X error: BadWindow (invalid Window parameter)
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: wlan0: Received scan results
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+(openbox:832): GLib-CRITICAL **: Source ID 33 was not found when attempting to remove it
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: wlan0: Received scan results
+
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+** (lxpanel:837): WARNING **: lxpanel : X error: BadWindow (invalid Window parameter)
+
+** (pcmanfm:838): WARNING **: FmProgressDialog on_error: assertion `cur_file != NULL' failed
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: wlan0: Received scan results
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 cat: /proc/0/cmdline: No such file or directory
 
-** (lxpanel:852): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
-
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** (lxpanel:837): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
 ** Message: wlan0: Received scan results
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-cat: /proc/0/cmdline: No such file or directory
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 
-** (lxpanel:852): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
-** Message: wlan0: Received scan results
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-cat: /proc/0/cmdline: No such file or directory
-
-** (lxpanel:852): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 ** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 192.168.1.106/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-cat: /proc/0/cmdline: No such file or directory
-
-** (lxpanel:852): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-
-** (epiphany-browser:10380): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-** Message: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
-
-** (epiphany-browser:10380): WARNING **: Error caching form data: The name org.freedesktop.secrets was not provided by any .service files
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
-cat: /proc/0/cmdline: No such file or directory
-
-** (lxpanel:852): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-
-(lxpanel:852): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 ** Message: wlan0: Received scan results
