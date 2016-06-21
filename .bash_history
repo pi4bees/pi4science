@@ -472,3 +472,6 @@ vim ./run_USB.py
 sudo killall pigpiod
 sudo pigpiod
 sudo python run_USB.py
+git commit -am "having a hard time debugging"
+git push origin master
+sudo python run_USB.py

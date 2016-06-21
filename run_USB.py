@@ -56,7 +56,7 @@ def main():
                 print('{0:0.4F}	{1:0.2F}	{2:0.2F}'.format(temp,   s.humidity()/1., s.temperature()/1.))
 		f = open(logging_file, 'a+')
 		f.write('\n"{:%H:%M:%S}",'.format(dt)) 
-                f.write('{0:0.4F}	{1:0.2F}	{2:0.2F}').format(temp,   s.humidity()/1., s.temperature()/1.)
+                f.write('{0:0.4F}	{1:0.2F}	{2:0.2F}'.format(temp,   s.humidity()/1., s.temperature()/1.))
                 f.close
                 sleep(30)
                 s.cancel()
