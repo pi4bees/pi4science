@@ -45,6 +45,7 @@ def main():
         f = open(logging_file, 'a+')
         f.write('\n"{:%H:%M:%S}",'.format(dt))
         f.write(str('MCP9808_temp      DHT22_hum%    KHT22_temp'))
+        f.close
                 
 
 	print('MCP9808_temp	DHT22_hum	DHT22_temp')
@@ -60,7 +61,7 @@ def main():
                 sleep(30)
                 s.cancel()
                 pi.stop
-        f.close
+                f.close
 
 if __name__=="__main__":
 	main()

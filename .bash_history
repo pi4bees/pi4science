@@ -516,3 +516,9 @@ sudo python run_USB.py
 git commit -am "try 1000k"
 git push origin master
 sudo python run_USB.py
+git commit -am "try WORKING"
+git push origin master
+sudo python run_USB.py
+cd gpio
+i2c detect -y 1
+i2cdetect -y 1
