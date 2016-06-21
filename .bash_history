@@ -461,3 +461,14 @@ sudo python run_USB.py
 sudo vim./run_USB.py
 vim run_USB.py
 sudo python run_USB.py
+git commit -am "working version!"
+git push origin master
+quit
+sudo quit
+sudo python run_USB.py
+sudo killall pigpiod
+sudo pigpiod
+vim ./run_USB.py
+sudo killall pigpiod
+sudo pigpiod
+sudo python run_USB.py
