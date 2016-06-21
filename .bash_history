@@ -513,3 +513,6 @@ sudo killall pigpio
 sudo killall pigpiod
 sudo pigpiod
 sudo python run_USB.py
+git commit -am "try 1000k"
+git push origin master
+sudo python run_USB.py

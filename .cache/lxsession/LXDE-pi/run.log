@@ -272,3 +272,46 @@ cat: /proc/0/cmdline: No such file or directory
 (lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: wlan0: Received scan results
+
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:838): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: wlan0: Received scan results
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+
+(lxpanel:837): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: wlan0: Received scan results

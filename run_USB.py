@@ -12,7 +12,7 @@ import os, glob, time, datetime
 
 logging_folder = glob.glob('/media/usb0/')[0]
 dt = datetime.datetime.now()
-file_name = "pi4bees1{:%Y_%m_%d}.csv".format(dt)
+file_name = "pi4bees1_{:%Y_%m_%d}.csv".format(dt)
 logging_file = logging_folder + '/' + file_name
 
 
@@ -56,7 +56,7 @@ def main():
                 temp = sensor.readTempC()
                 print('{0:0.4F}	{1:0.2F}	{2:0.2F}'.format(temp,   s.humidity()/1., s.temperature()/1.))
 		f.write('\n"{:%H:%M:%S}",'.format(dt)) 
-                f.write('{0:0.4F}	{1:0.2F}	{2:0.2F}'.format(temp,   s.humidity()/1., s.temperature()/1.))
+                f.write('{0:0.4F},{1:0.2F},{2:0.2F}'.format(temp,   s.humidity()/1., s.temperature()/1.))
                 sleep(30)
                 s.cancel()
                 pi.stop
