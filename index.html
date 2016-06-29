@@ -79,7 +79,7 @@ d3.csv("stocks.csv", function(data) {
     .enter().append("g")
       .attr("class", "symbol");
 
-  setTimeout(lines, duration);
+  setTimeout(areas, duration);
 });
 
 function lines() {
@@ -235,7 +235,7 @@ function areas() {
       .duration(duration)
       .each("end", function() { d3.select(this).attr("clip-path", null); });
 
-  setTimeout(stackedArea, duration + delay);
+  //setTimeout(stackedArea, duration + delay);
 }
 
 function stackedArea() {
