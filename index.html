@@ -195,6 +195,14 @@ function horizons() {
 }
 
 function areas() {
+  x = d3.time.scale().range([0, w - 60]);
+  y = d3.scale.linear().range([h / 4 - 20, 0]);
+
+  // Compute the minimum and maximum date across symbols.
+  x.domain([
+    d3.min(symbols, function(d) { return d.values[0].date; }),
+    d3.max(symbols, function(d) { return d.values[d.values.length - 1].date; })
+  ]);
   var g = svg.selectAll(".symbol");
 
   axis
