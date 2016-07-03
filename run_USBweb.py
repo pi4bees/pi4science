@@ -59,6 +59,7 @@ def main():
         #f.close
                 
 
+	count = 0
     	while True:
         	s = DHT22.sensor(pi, 4)
                 s.trigger()
@@ -99,8 +100,12 @@ def main():
                 s.cancel()
                 pi.stop
                 f.close
-		call('git commit -am "updating data"', shell = True)
-		call('git push', shell = True)
+		
+		if(count == 120):
+			call('git commit -am "updating data"', shell = True)
+			call('git push', shell = True)
+			count = -1
+		count += 1
 
 if __name__=="__main__":
 	main()
