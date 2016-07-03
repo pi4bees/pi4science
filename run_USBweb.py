@@ -68,8 +68,8 @@ def main():
                 temp2 = sensor2.readTempC()
 		temp3 = sensor3.readTempC()
 		dt = datetime.datetime.now()
-                print('{0:0.4F}	{1:0.4F}	{2:0.4F}	{3:0.2F}	{4:0.2F}'.format(temp,	temp2, temp3,  s.humidity()/1., s.temperature()/1.))
-                f.write('{0:0.4F}	{1:0.4F}	{2:0.4F}	{3:0.2F}	{4:0.2F}'.format(temp,	temp2, temp3,  s.humidity()/1., s.temperature()/1.))
+                print('{0}	{1:0.4F}	{2:0.4F}	{3:0.4F}	{4:0.2F}	{5:0.2F}'.format(dt.strftime("%d:%B:%Y:%H:%M:%S"), temp,	temp2, temp3,  s.humidity()/1., s.temperature()/1.))
+                f.write('{0}	{1:0.4F}	{2:0.4F}	{3:0.4F}	{4:0.2F}	{5:0.2F}\n'.format(dt.strftime("%d:%B:%Y:%H:%M:%S"),temp,	temp2, temp3,  s.humidity()/1., s.temperature()/1.))
 	
 		#writing in line for temp1 data
 		#f.write('\n"{:%d:%B:%Y:%H:%M:%S}",'.format(dt)) 
