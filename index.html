@@ -72,7 +72,7 @@ var svg = d3.select("#area1").append("svg")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var  date_format = d3.time.format("%b/%d/%H:%M").parse;
-d3.tsv("data.tsv", function(error, data) {
+d3.tsv("blue_data.tsv", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
