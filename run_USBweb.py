@@ -104,7 +104,7 @@ def main():
 		if(count == 120):
 			call('git stash', shell = True)
 			call('git pull', shell = True)
-			call('git pop', shell = True)
+			call('git stash pop', shell = True)
 			call('git commit -am "updating data"', shell = True)
 			call('git push', shell = True)
 			count = -1
