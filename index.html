@@ -44,7 +44,7 @@ Green USB
 <div class="container" id="area5"></div>
 <div class="container" id="area6"></div>
 </div>
-Green USB
+Orange USB
 <div>
 <div class="container" id="area7"></div>
 <div class="container" id="area8"></div>
@@ -497,10 +497,7 @@ d3.tsv("orange_data.tsv", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
-	delete d.MCP9808_temp;
-	delete d.MCP9808_temp2;
-	delete d.MCP9808_temp3;
-	delete d.DHT22_temp;
+	delete d.DHT22_hum;
     d.date = parseDate(d.date);
   });
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
