@@ -98,6 +98,7 @@ d3.tsv("blue_data.tsv", function(error, data) {
 	delete d.DHT22_hum;
     d.date = parseDate(d.date);
   });
+  data = data.filter(function(d) { return +d.DHT22_temp > -900 })
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
   var devices = color.domain().map(function(name) {
@@ -166,6 +167,7 @@ d3.tsv("blue_data.tsv", function(error, data) {
 	delete d.DHT22_temp;
     d.date = parseDate(d.date);
   });
+  data = data.filter(function(d) { return +d.DHT22_hum > -900 })
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
   var devices = color.domain().map(function(name) {
@@ -232,6 +234,7 @@ d3.tsv("pink_data.tsv", function(error, data) {
 	delete d.DHT22_hum;
     d.date = parseDate(d.date);
   });
+  data = data.filter(function(d) { return +d.DHT22_temp > -900 })
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
   var devices = color.domain().map(function(name) {
@@ -300,6 +303,7 @@ d3.tsv("pink_data.tsv", function(error, data) {
 	delete d.DHT22_temp;
     d.date = parseDate(d.date);
   });
+  data = data.filter(function(d) { return +d.DHT22_hum > -900 })
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
   var devices = color.domain().map(function(name) {
@@ -366,6 +370,7 @@ d3.tsv("green_data.tsv", function(error, data) {
 	delete d.DHT22_hum;
     d.date = parseDate(d.date);
   });
+  data = data.filter(function(d) { return +d.DHT22_temp > -900 })
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
   var devices = color.domain().map(function(name) {
@@ -434,6 +439,7 @@ d3.tsv("green_data.tsv", function(error, data) {
 	delete d.DHT22_temp;
     d.date = parseDate(d.date);
   });
+  data = data.filter(function(d) { return +d.DHT22_hum > -900 })
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
   var devices = color.domain().map(function(name) {
@@ -500,6 +506,7 @@ d3.tsv("orange_data.tsv", function(error, data) {
 	delete d.DHT22_hum;
     d.date = parseDate(d.date);
   });
+  data = data.filter(function(d) { return +d.DHT22_temp > -900 })
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
   var devices = color.domain().map(function(name) {
@@ -569,6 +576,7 @@ d3.tsv("orange_data.tsv", function(error, data) {
 	delete d.DHT22_temp;
     d.date = parseDate(d.date);
   });
+  data = data.filter(function(d) { return +d.DHT22_hum > -900 })
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
   var devices = color.domain().map(function(name) {
