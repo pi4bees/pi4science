@@ -101,7 +101,7 @@ def main():
                 pi.stop
                 f.close
 		
-		if(count == 10):
+		if(count == 120):
 			call('git stash', shell = True)
 			call('git pull', shell = True)
 			call('git stash pop', shell = True)
