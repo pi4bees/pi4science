@@ -47,8 +47,8 @@ def main():
         Yi = Yi[~np.isnan(Yi)]
         Zi = Zi[~np.isnan(Zi)]
         result = result[~np.isnan(result)]
-        with open("purple_triangle_data2.tsv", 'w') as fh:
-            print("x1,y1,x1,result", file=fh)
+        with open("purple_triangle_data2.csv", 'w') as fh:
+            print("x1,y1,z1,result", file=fh)
             for i in range(len(Xi.flatten())):
                 print(str(Xi.flatten()[i])+","+str(Yi.flatten()[i])+","+str(Zi.flatten()[i])+","+str(result.flatten()[i]), file=fh)
 
