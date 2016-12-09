@@ -10,7 +10,7 @@ import time
 
 def main():
     while(True):
-        w = 14
+        w = 12
         l = 12
         h = 24
         x = np.array([l, l, 0, l/2, 0, l/2, 0, 0])
@@ -22,8 +22,8 @@ def main():
                 pass
         vals = line.split()[1:9]
         rbf = Rbf(x,y,z,vals)
-        xi = yi = np.linspace(0, 8, 20)
-        zi = np.linspace(0, 16, 50)
+        xi = yi = np.linspace(0, 12, 20)
+        zi = np.linspace(0, 24, 50)
         Xi, Yi, Zi = np.meshgrid(xi, yi, zi, indexing='ij')
         result = rbf(Xi, Yi, Zi)
         m = np.max(result)
@@ -52,12 +52,12 @@ def main():
             for i in range(len(Xi.flatten())):
                 print(str(Xi.flatten()[i])+","+str(Yi.flatten()[i])+","+str(Zi.flatten()[i])+","+str(result.flatten()[i]), file=fh)
 
-        call('git stash', shell = True)
-        call('git pull', shell = True)
-        call('git stash pop', shell = True)
-        call('git commit -am "updating data"', shell = True)
-        call('git push', shell = True)
-        time.sleep(3600)
+        #call('git stash', shell = True)
+        #call('git pull', shell = True)
+        #call('git stash pop', shell = True)
+        #call('git commit -am "updating data"', shell = True)
+        #call('git push', shell = True)
+        #time.sleep(3600)
 
 if __name__=="__main__":
     main()
