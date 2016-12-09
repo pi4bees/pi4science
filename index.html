@@ -213,8 +213,8 @@ d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/gh-pages/green_data
 });
 </script>
         <script>
+//Plotly.d3.csv('https://raw.githubusercontent.com/NathanCompBioakes/pi4science/purple_triangle/purple_triangle_data2.csv', function(err, rows){
 Plotly.d3.csv('https://raw.githubusercontent.com/NathanCompBioakes/pi4science/purple_triangle/purple_triangle_data2.csv', function(err, rows){
-//Plotly.d3.csv('https://raw.githubusercontent.com/pi4bees/pi4science/46d6783b336cf1a8f1e3dbded8a6625d4cb18065/purple_triangle_data2.tsv', function(err, rows){
       function unpack(rows, key) {
           return rows.map(function(row) 
           { return row[key]; });
