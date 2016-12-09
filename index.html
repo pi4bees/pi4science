@@ -77,7 +77,7 @@ var svg = d3.select("#area1").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.tsv("https://raw.githubusercontent.com/NathanCompBioakes/pi4science/purple_triangle/purple_triangle_data.tsv", function(error, data) {
+d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/gh-pages/green_data.tsv", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
@@ -143,18 +143,18 @@ var svg2 = d3.select("#area2").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.tsv("https://raw.githubusercontent.com/NathanCompBioakes/pi4science/purple_triangle/purple_triangle_data.tsv", function(error, data) {
+d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/gh-pages/green_data.tsv", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
 	delete d.MCP9808_temp;
 	delete d.MCP9808_temp2;
 	delete d.MCP9808_temp3;
-	delete d.MCP9808_temp4;
-	delete d.MCP9808_temp5;
-	delete d.MCP9808_temp6;
-	delete d.MCP9808_temp7;
-	delete d.MCP9808_temp8;
+	//delete d.MCP9808_temp4;
+	//delete d.MCP9808_temp5;
+	//delete d.MCP9808_temp6;
+	//delete d.MCP9808_temp7;
+	//delete d.MCP9808_temp8;
 	delete d.DHT22_temp;
     d.date = parseDate(d.date);
   });
@@ -214,6 +214,7 @@ d3.tsv("https://raw.githubusercontent.com/NathanCompBioakes/pi4science/purple_tr
 </script>
         <script>
 Plotly.d3.csv('https://raw.githubusercontent.com/NathanCompBioakes/pi4science/purple_triangle/purple_triangle_data2.csv', function(err, rows){
+//Plotly.d3.csv('https://raw.githubusercontent.com/pi4bees/pi4science/46d6783b336cf1a8f1e3dbded8a6625d4cb18065/purple_triangle_data2.tsv', function(err, rows){
       function unpack(rows, key) {
           return rows.map(function(row) 
           { return row[key]; });
