@@ -77,7 +77,7 @@ var svg = d3.select("#area1").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/gh-pages/green_data.tsv", function(error, data) {
+d3.tsv("green_data.tsv", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
