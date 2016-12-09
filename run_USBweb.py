@@ -9,7 +9,7 @@ import time
 
 
 def main():
-    while(True):
+    #while(True):
         w = 12
         l = 12
         h = 24
@@ -30,7 +30,7 @@ def main():
         mu = np.mean(result)
         s = np.std(result)
         result_filter = result.flatten()[heapq.nlargest(200, range(len(result.flatten())), result.flatten().take)]
-        for i in range(20):
+        """for i in range(20):
             for j in range(20):
                 for k in range(50):
                     if all(result[i][j][k] < result_filter) and ((i != 0 and j != 0 and k != 0) and \
@@ -42,7 +42,7 @@ def main():
                             (i != 19 and j != 19 and k != 0) and \
                             (i != 0 and j != 19 and k != 0)):
                                 result[i][j][k] = np.nan
-                                Xi[i][j][k] = Yi[i][j][k] = Zi[i][j][k] = np.nan
+                                Xi[i][j][k] = Yi[i][j][k] = Zi[i][j][k] = np.nan"""
         Xi = Xi[~np.isnan(Xi)]
         Yi = Yi[~np.isnan(Yi)]
         Zi = Zi[~np.isnan(Zi)]
