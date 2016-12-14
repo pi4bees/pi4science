@@ -89,7 +89,7 @@ def main():
 		
 		dt = datetime.datetime.now()
                 print('{0}	{1:0.4F}	{2:0.4F}	{3:0.4F}	{4:0.4F}        {5:0.4F}        {6:0.4F}        {7:0.4F}        {8:0.4F}	{9:0.2F}	{10:0.2F}'.format(dt.strftime("%d:%B:%Y:%H:%M:%S"), temp,	temp2, temp3, temp4, temp5, temp6, temp7, temp8, s.humidity()/1., s.temperature()/1.))
-                f.write('{0}	{1:0.4F}	{2:0.4F}	{3:0.4F}        {4:0.4F}        {5:0.4F}        {6:0.4F}        {7:0.4F}        {8:0.4F}	{9:0.2F}	{10:0.2F}\n'.format(dt.strftime("%d:%B:%Y:%H:%M:%S"),temp,	temp2, temp3, temp4, temp5, temp6, temp7, temp8, s.humidity()/1., s.temperature()/1.))
+                f.write('{0}\t{1:0.4F}\t{2:0.4F}\t{3:0.4F}\t{4:0.4F}\t{5:0.4F}\t{6:0.4F}\t{7:0.4F}\t{8:0.4F}\t{9:0.2F}\t{10:0.2F}\n'.format(dt.strftime("%d:%B:%Y:%H:%M:%S"),temp, temp2, temp3, temp4, temp5, temp6, temp7, temp8, s.humidity()/1., s.temperature()/1.))
 	
 		#writing in line for temp1 data
 		#f.write('\n"{:%d:%B:%Y:%H:%M:%S}",'.format(dt)) 
