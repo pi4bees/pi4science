@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 from subprocess import call
 import numpy as np
 from scipy.interpolate import RegularGridInterpolator, Rbf
@@ -52,12 +52,21 @@ def main():
             for i in range(len(Xi.flatten())):
                 print(str(Xi.flatten()[i])+","+str(Yi.flatten()[i])+","+str(Zi.flatten()[i])+","+str(result.flatten()[i]), file=fh)
 
+<<<<<<< Updated upstream
         #call('git stash', shell = True)
         #call('git pull', shell = True)
         #call('git stash pop', shell = True)
         #call('git commit -am "updating data"', shell = True)
         #call('git push', shell = True)
         #time.sleep(3600)
+=======
+        call('git stash', shell = True)
+        call('git pull origin purple_triangle', shell = True)
+        call('git stash pop', shell = True)
+        call('git commit -am "updating data"', shell = True)
+        call('git push', shell = True)
+        time.sleep(1800)
+>>>>>>> Stashed changes
 
 if __name__=="__main__":
     main()
