@@ -9,7 +9,7 @@ import time
 
 
 def main():
-    #while(True):
+    while(True):
         w = 41
         l = 50.5
         h = 48
@@ -58,7 +58,6 @@ def main():
         call('git commit -am "updating data"', shell = True)
         call('git push', shell = True)
         time.sleep(1800)
-        print("done")
 
 if __name__=="__main__":
     main()
