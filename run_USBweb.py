@@ -10,20 +10,21 @@ import time
 
 def main():
     #while(True):
-        w = 12
-        l = 12
-        h = 24
+        w = 41
+        l = 50.5
+        h = 48
         x = np.array([l, l, 0, l/2, 0, l/2, 0, 0])
         y = np.array([w/2, w/2, w, w/2, w, w/2, 0, 0])
-        z = np.array([0, h, 0, 0, h, h*3/4, 0, h])
+        z = np.array([0, h, 0, 2, h, h-6, 0, h])
         vals = []
         with open("purple_triangle_data.tsv", 'rb') as fh:
             for line in fh:
                 pass
         vals = line.split()[1:9]
         rbf = Rbf(x,y,z,vals)
-        xi = yi = np.linspace(0, 12, 20)
-        zi = np.linspace(0, 24, 50)
+        xi = np.linspace(0, w, 20)
+        yi = np.linspace(0, l, 20)
+        zi = np.linspace(0, h, 50)
         Xi, Yi, Zi = np.meshgrid(xi, yi, zi, indexing='ij')
         result = rbf(Xi, Yi, Zi)
         m = np.max(result)
@@ -51,22 +52,13 @@ def main():
             print("x1,y1,z1,result", file=fh)
             for i in range(len(Xi.flatten())):
                 print(str(Xi.flatten()[i])+","+str(Yi.flatten()[i])+","+str(Zi.flatten()[i])+","+str(result.flatten()[i]), file=fh)
-
-<<<<<<< Updated upstream
-        #call('git stash', shell = True)
-        #call('git pull', shell = True)
-        #call('git stash pop', shell = True)
-        #call('git commit -am "updating data"', shell = True)
-        #call('git push', shell = True)
-        #time.sleep(3600)
-=======
         call('git stash', shell = True)
         call('git pull origin purple_triangle', shell = True)
         call('git stash pop', shell = True)
         call('git commit -am "updating data"', shell = True)
         call('git push', shell = True)
         time.sleep(1800)
->>>>>>> Stashed changes
+        print("done")
 
 if __name__=="__main__":
     main()
