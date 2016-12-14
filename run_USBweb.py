@@ -12,10 +12,11 @@ from datetime import datetime
 import os, glob, time, datetime
 
 
-#logging_folder = glob.glob('/media/usb0/pi4science')[0]
+#logging_folder = glob.glob('/media/pi/EMTEC')[0]
 dt = datetime.datetime.now()
+file_folder = glob.glob('/media/pi/pi4science')[0]
 #file_name = "pi4_{:%Y_%m_%d}.csv".format(dt)
-file_name = os.environ['USB_COLOR'] +  "_data.tsv"
+file_name = file_folder + '/' + os.environ['USB_COLOR'] +  "_data.tsv"
 #logging_file = logging_folder + '/' + file_name
 logging_file = file_name
 
@@ -38,7 +39,12 @@ def main():
 	sensor = MCP9808.MCP9808(address = 0x18)
 	sensor2 = MCP9808.MCP9808(address = 0x19)
 	sensor3 = MCP9808.MCP9808(address = 0x1a)
-	
+	sensor4 = MCP9808.MCP9808(address = 0x1b)
+        sensor5 = MCP9808.MCP9808(address = 0x1c)
+        sensor6 = MCP9808.MCP9808(address = 0x1d)
+        sensor7 = MCP9808.MCP9808(address = 0x1e)
+        sensor8 = MCP9808.MCP9808(address = 0x1f)
+
 
 	#print heading with date/time at begining of data collection "cycle"
 
@@ -48,12 +54,18 @@ def main():
 	sensor.begin()
 	sensor2.begin()
 	sensor3.begin()
+        sensor4.begin()
+        sensor5.begin()
+        sensor6.begin()
+        sensor7.begin()
+        sensor8.begin()
 
+        
 	# Optionally you can override the address and/or bus number:
 	#sensor = MCP9808.MCP9808(address=0x20, busnum=2)
 	
         
-        #f = open(logging_file, 'a+')
+        #f = open(file_name, 'a+')
         #f.write('\n"{:%H:%M:%S}",'.format(dt))
         #f.write(str('MCP9808_temp      DHT22_hum%    KHT22_temp'))
         #f.close
@@ -68,9 +80,16 @@ def main():
                 temp = sensor.readTempC()
                 temp2 = sensor2.readTempC()
 		temp3 = sensor3.readTempC()
+                temp4 = sensor4.readTempC()
+                temp5 = sensor5.readTempC()
+                temp6 = sensor6.readTempC()
+                temp7 = sensor7.readTempC()
+                temp8 = sensor8.readTempC()
+
+		
 		dt = datetime.datetime.now()
-                print('{0}	{1:0.4F}	{2:0.4F}	{3:0.4F}	{4:0.2F}	{5:0.2F}'.format(dt.strftime("%d:%B:%Y:%H:%M:%S"), temp,	temp2, temp3,  s.humidity()/1., s.temperature()/1.))
-                f.write('{0}	{1:0.4F}	{2:0.4F}	{3:0.4F}	{4:0.2F}	{5:0.2F}\n'.format(dt.strftime("%d:%B:%Y:%H:%M:%S"),temp,	temp2, temp3,  s.humidity()/1., s.temperature()/1.))
+                print('{0}	{1:0.4F}	{2:0.4F}	{3:0.4F}	{4:0.4F}        {5:0.4F}        {6:0.4F}        {7:0.4F}        {8:0.4F}	{9:0.2F}	{10:0.2F}'.format(dt.strftime("%d:%B:%Y:%H:%M:%S"), temp,	temp2, temp3, temp4, temp5, temp6, temp7, temp8, s.humidity()/1., s.temperature()/1.))
+                f.write('{0}	{1:0.4F}	{2:0.4F}	{3:0.4F}        {4:0.4F}        {5:0.4F}        {6:0.4F}        {7:0.4F}        {8:0.4F}	{9:0.2F}	{10:0.2F}\n'.format(dt.strftime("%d:%B:%Y:%H:%M:%S"),temp,	temp2, temp3, temp4, temp5, temp6, temp7, temp8, s.humidity()/1., s.temperature()/1.))
 	
 		#writing in line for temp1 data
 		#f.write('\n"{:%d:%B:%Y:%H:%M:%S}",'.format(dt)) 
