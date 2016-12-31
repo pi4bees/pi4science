@@ -15,7 +15,7 @@ def main():
         h = 48
         x = np.array([l, l, 0, l/2, 0, l/2, 0, 0])
         y = np.array([w/2, w/2, w, w/2, w, w/2, 0, 0])
-        z = np.array([0, h, 0, 2, h, h-6, 0, h])
+        z = np.array([0, h, 0, h-6, h, h-6, 0, h])
         vals = []
         with open("purple_triangle_data.tsv", 'rb') as fh:
             for line in fh:
