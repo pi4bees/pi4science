@@ -28,6 +28,7 @@ def c_to_f(c):
 
 def main():
 
+<<<<<<< Updated upstream
     global dt
     pi = pigpio.pi()
 
@@ -75,6 +76,34 @@ def main():
         three = False
         pass
     try:
+=======
+	global dt
+        pi = pigpio.pi()
+
+	# Default constructor will use the default I2C address (0x18) and pick a default I2C bus.
+	#
+	# For the Raspberry Pi this means you should hook up to the only exposed I2C bus
+	# from the main GPIO header and the library will figure out the bus number based
+	# on the Pi's revision.
+	sensor = MCP9808.MCP9808(address = 0x18)
+	sensor2 = MCP9808.MCP9808(address = 0x19)
+	sensor3 = MCP9808.MCP9808(address = 0x1a)
+	sensor4 = MCP9808.MCP9808(address = 0x1b)
+        sensor5 = MCP9808.MCP9808(address = 0x1c)
+        sensor6 = MCP9808.MCP9808(address = 0x1d)
+        sensor7 = MCP9808.MCP9808(address = 0x1e)
+        sensor8 = MCP9808.MCP9808(address = 0x1f)
+
+
+	#print heading with date/time at begining of data collection "cycle"
+
+	#print(datetime.ctime(datetime.now()))		
+
+	# Initialize communication with the sensor.
+	sensor.begin()
+	sensor2.begin()
+	#sensor3.begin()
+>>>>>>> Stashed changes
         sensor4.begin()
     except:
         four = False
@@ -133,6 +162,7 @@ def main():
         if two:
             try:
                 temp2 = sensor2.readTempC()
+<<<<<<< Updated upstream
             except:
                 pass
         if three:
@@ -142,6 +172,10 @@ def main():
                 pass
         if four:
             try:
+=======
+		#temp3 = sensor3.readTempC()
+		temp3 = -999
+>>>>>>> Stashed changes
                 temp4 = sensor4.readTempC()
             except:
                 pass
