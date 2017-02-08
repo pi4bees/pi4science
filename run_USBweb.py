@@ -102,112 +102,112 @@ def main():
 
 
     # Optionally you can override the address and/or bus number:
-        #sensor = MCP9808.MCP9808(address=0x20, busnum=2)
+    #sensor = MCP9808.MCP9808(address=0x20, busnum=2)
 
 
-        #f = open(file_name, 'a+')
-        #f.write('\n"{:%H:%M:%S}",'.format(dt))
-        #f.write(str('MCP9808_temp      DHT22_hum%    KHT22_temp'))
-        #f.close
+    #f = open(file_name, 'a+')
+    #f.write('\n"{:%H:%M:%S}",'.format(dt))
+    #f.write(str('MCP9808_temp      DHT22_hum%    KHT22_temp'))
+    #f.close
 
 
-        count = 0
-        while True:
-            s = DHT22.sensor(pi, 4)
-            s.trigger()
-            sleep(1)
-            f = open(logging_file, 'a+')
-            if one:
-                try:
-                    temp = sensor.readTempC()
-                except:
-                    temp = -999
-                    pass
-            if two:
-                try:
-                    temp2 = sensor2.readTempC()
-                except:
-                    temp2 = -999
-                    pass
-            if three:
-                try:
-                    temp3 = sensor3.readTempC()
-                except:
-                    temp3 = -999
-                    pass
-            if four:
-                try:
-                    temp4 = sensor4.readTempC()
-                except:
-                    temp4 = -999
-                    pass
-            if five:
-                try:
-                    temp5 = sensor5.readTempC()
-                except:
-                    temp5 = -999
-                    pass
-            if six:
-                try:
-                    temp6 = sensor6.readTempC()
-                except:
-                    temp6 = -999
-                    pass
-            if seven:
-                try:
-                    temp7 = sensor7.readTempC()
-                except:
-                    temp7 = -999
-                    pass
-            if eight:
-                try:
-                    temp8 = sensor8.readTempC()
-                except:
-                    temp8 = -999
-                    pass
+    count = 0
+    while True:
+        s = DHT22.sensor(pi, 4)
+        s.trigger()
+        sleep(1)
+        f = open(logging_file, 'a+')
+	temp = -999
+	temp2 = -999
+	temp3 = -999
+	temp4 = -999
+	temp5 = -999
+	temp6 = -999
+	temp7 = -999
+	temp8 = -999
+        if one:
+            try:
+                temp = sensor.readTempC()
+            except:
+                pass
+        if two:
+            try:
+                temp2 = sensor2.readTempC()
+            except:
+                pass
+        if three:
+            try:
+                temp3 = sensor3.readTempC()
+            except:
+                pass
+        if four:
+            try:
+                temp4 = sensor4.readTempC()
+            except:
+                pass
+        if five:
+            try:
+                temp5 = sensor5.readTempC()
+            except:
+                pass
+        if six:
+            try:
+                temp6 = sensor6.readTempC()
+            except:
+                pass
+        if seven:
+            try:
+                temp7 = sensor7.readTempC()
+            except:
+                pass
+        if eight:
+            try:
+                temp8 = sensor8.readTempC()
+            except:
+                pass
 
 
-            dt = datetime.datetime.now()
-            print('{0}	{1:0.4F}	{2:0.4F}	{3:0.4F}	{4:0.4F}        {5:0.4F}        {6:0.4F}        {7:0.4F}        {8:0.4F}	{9:0.2F}	{10:0.2F}'.format(dt.strftime("%d:%B:%Y:%H:%M:%S"), temp,	temp2, temp3, temp4, temp5, temp6, temp7, temp8, s.humidity()/1., s.temperature()/1.))
-            f.write('{0}\t{1:0.4F}\t{2:0.4F}\t{3:0.4F}\t{4:0.4F}\t{5:0.4F}\t{6:0.4F}\t{7:0.4F}\t{8:0.4F}\t{9:0.2F}\t{10:0.2F}\n'.format(dt.strftime("%d:%B:%Y:%H:%M:%S"),temp, temp2, temp3, temp4, temp5, temp6, temp7, temp8, s.humidity()/1., s.temperature()/1.))
+        dt = datetime.datetime.now()
+        print('{0}	{1:0.4F}	{2:0.4F}	{3:0.4F}	{4:0.4F}        {5:0.4F}        {6:0.4F}        {7:0.4F}        {8:0.4F}	{9:0.2F}	{10:0.2F}'.format(dt.strftime("%d:%B:%Y:%H:%M:%S"), temp,	temp2, temp3, temp4, temp5, temp6, temp7, temp8, s.humidity()/1., s.temperature()/1.))
+        f.write('{0}\t{1:0.4F}\t{2:0.4F}\t{3:0.4F}\t{4:0.4F}\t{5:0.4F}\t{6:0.4F}\t{7:0.4F}\t{8:0.4F}\t{9:0.2F}\t{10:0.2F}\n'.format(dt.strftime("%d:%B:%Y:%H:%M:%S"),temp, temp2, temp3, temp4, temp5, temp6, temp7, temp8, s.humidity()/1., s.temperature()/1.))
 
-            #writing in line for temp1 data
-            #f.write('\n"{:%d:%B:%Y:%H:%M:%S}",'.format(dt)) 
-            #f.write('MCP9808_temp,{0:0.4F},'.format(temp,))
+        #writing in line for temp1 data
+        #f.write('\n"{:%d:%B:%Y:%H:%M:%S}",'.format(dt)) 
+        #f.write('MCP9808_temp,{0:0.4F},'.format(temp,))
 
-            #writing line for temp2 data 
-            #f.write('\n"{:%d:%B:%Y:%H:%M:%S}",'.format(dt)) 
-            #f.write('MCP9808_temp2,{0:0.4F},'.format(temp2,))
+        #writing line for temp2 data 
+        #f.write('\n"{:%d:%B:%Y:%H:%M:%S}",'.format(dt)) 
+        #f.write('MCP9808_temp2,{0:0.4F},'.format(temp2,))
 
-            # writing line for temp3 data
-            #f.write('\n"{:%d:%B:%Y:%H:%M:%S}",'.format(dt)) 
-            #f.write('MCP9808_temp3,{0:0.4F},'.format(temp3,))
-
-
-            #writing line for DHT22 temp and humidity
-            #f.write('\n"{:%d:%B:%Y:%H:%M:%S}",'.format(dt)) 
-            #f.write('DHT22_temp,{0:0.2F},'.format(s.temperature()/1.))
+        # writing line for temp3 data
+        #f.write('\n"{:%d:%B:%Y:%H:%M:%S}",'.format(dt)) 
+        #f.write('MCP9808_temp3,{0:0.4F},'.format(temp3,))
 
 
-            #f.write('\n"{:%d:%B:%Y:%H:%M:%S}",'.format(dt)) 
-            #f.write('DHT22_hum,{0:0.2F},'.format(s.humidity()/1.))
+        #writing line for DHT22 temp and humidity
+        #f.write('\n"{:%d:%B:%Y:%H:%M:%S}",'.format(dt)) 
+        #f.write('DHT22_temp,{0:0.2F},'.format(s.temperature()/1.))
+
+
+        #f.write('\n"{:%d:%B:%Y:%H:%M:%S}",'.format(dt)) 
+        #f.write('DHT22_hum,{0:0.2F},'.format(s.humidity()/1.))
 
 
 
-            #f.write('{0:0.4F},{1:0.4F},{2:0.2F},{3:0.2F}'.format(temp,	temp2,   s.humidity()/1., s.temperature()/1.))
-            sleep(30)
-            s.cancel()
-            pi.stop
-            f.close
+        #f.write('{0:0.4F},{1:0.4F},{2:0.2F},{3:0.2F}'.format(temp,	temp2,   s.humidity()/1., s.temperature()/1.))
+        sleep(30)
+        s.cancel()
+        pi.stop
+        f.close
 
-            if(count == 120):
-                call('git stash', shell = True)
-                    call('git pull', shell = True)
-                    call('git stash pop', shell = True)
-                    call('git commit -am "updating data"', shell = True)
-                    call('git push', shell = True)
-                    count = -1
-            count += 1
+        if(count == 120):
+            call('git stash', shell = True)
+            call('git pull', shell = True)
+            call('git stash pop', shell = True)
+            call('git commit -am "updating data"', shell = True)
+            call('git push', shell = True)
+            count = -1
+        count += 1
 
 if __name__=="__main__":
     main()
