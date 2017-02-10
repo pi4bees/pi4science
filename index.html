@@ -45,7 +45,7 @@ var margin = {top: 20, right: 80, bottom: 30, left: 50},
     //height = 500 - margin.top - margin.bottom;
     height = window.innerHeight/2 - margin.top - margin.bottom;
 
-var parseDate = d3.time.format("%d:%B:%Y:%H:%M:%S").parse;
+var parseDate = d3.time.format("%d:%H:%M").parse;
 
 var x = d3.time.scale()
     .range([0, width]);
@@ -77,7 +77,8 @@ var svg = d3.select("#area1").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/purple_triangle/purple_triangle_data.tsv", function(error, data) {
+//d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/purple_triangle/purple_triangle_data.tsv", function(error, data) {
+d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/gh-pages/tmp.txt", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
@@ -143,18 +144,19 @@ var svg2 = d3.select("#area2").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/purple_triangle/purple_triangle_data.tsv", function(error, data) {
+//d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/purple_triangle/purple_triangle_data.tsv", function(error, data) {
+d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/gh-pages/tmp.txt", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
 	delete d.MCP9808_temp;
 	delete d.MCP9808_temp2;
 	delete d.MCP9808_temp3;
-	//delete d.MCP9808_temp4;
-	//delete d.MCP9808_temp5;
-	//delete d.MCP9808_temp6;
-	//delete d.MCP9808_temp7;
-	//delete d.MCP9808_temp8;
+	delete d.MCP9808_temp4;
+	delete d.MCP9808_temp5;
+	delete d.MCP9808_temp6;
+	delete d.MCP9808_temp7;
+	delete d.MCP9808_temp8;
 	delete d.DHT22_temp;
     d.date = parseDate(d.date);
   });
