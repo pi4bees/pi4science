@@ -28,7 +28,6 @@ def c_to_f(c):
 
 def main():
 
-<<<<<<< Updated upstream
     global dt
     pi = pigpio.pi()
 
@@ -76,34 +75,6 @@ def main():
         three = False
         pass
     try:
-=======
-	global dt
-        pi = pigpio.pi()
-
-	# Default constructor will use the default I2C address (0x18) and pick a default I2C bus.
-	#
-	# For the Raspberry Pi this means you should hook up to the only exposed I2C bus
-	# from the main GPIO header and the library will figure out the bus number based
-	# on the Pi's revision.
-	sensor = MCP9808.MCP9808(address = 0x18)
-	sensor2 = MCP9808.MCP9808(address = 0x19)
-	sensor3 = MCP9808.MCP9808(address = 0x1a)
-	sensor4 = MCP9808.MCP9808(address = 0x1b)
-        sensor5 = MCP9808.MCP9808(address = 0x1c)
-        sensor6 = MCP9808.MCP9808(address = 0x1d)
-        sensor7 = MCP9808.MCP9808(address = 0x1e)
-        sensor8 = MCP9808.MCP9808(address = 0x1f)
-
-
-	#print heading with date/time at begining of data collection "cycle"
-
-	#print(datetime.ctime(datetime.now()))		
-
-	# Initialize communication with the sensor.
-	sensor.begin()
-	sensor2.begin()
-	#sensor3.begin()
->>>>>>> Stashed changes
         sensor4.begin()
     except:
         four = False
@@ -140,7 +111,7 @@ def main():
     #f.close
 
 
-    count = 0
+    #count = 0
     while True:
         s = DHT22.sensor(pi, 4)
         s.trigger()
@@ -159,45 +130,96 @@ def main():
                 temp = sensor.readTempC()
             except:
                 pass
+	else:
+            try:
+		sensor.begin()
+		one = True
+            except:
+		one = False
+                pass
         if two:
             try:
                 temp2 = sensor2.readTempC()
-<<<<<<< Updated upstream
             except:
+                pass
+	else:
+            try:
+		sensor2.begin()
+		two = True
+            except:
+		two = False
                 pass
         if three:
             try:
                 temp3 = sensor3.readTempC()
             except:
                 pass
+	else:
+            try:
+		sensor3.begin()
+		three = True
+            except:
+		three = False
+                pass
         if four:
             try:
-=======
-		#temp3 = sensor3.readTempC()
-		temp3 = -999
->>>>>>> Stashed changes
                 temp4 = sensor4.readTempC()
             except:
+                pass
+	else:
+            try:
+		sensor4.begin()
+		four = True
+            except:
+		four = False
                 pass
         if five:
             try:
                 temp5 = sensor5.readTempC()
             except:
                 pass
+	else:
+            try:
+		sensor5.begin()
+		five = True
+            except:
+		five = False
+                pass
         if six:
             try:
                 temp6 = sensor6.readTempC()
             except:
+                pass
+	else:
+            try:
+		sensor6.begin()
+		six = True
+            except:
+		six = False
                 pass
         if seven:
             try:
                 temp7 = sensor7.readTempC()
             except:
                 pass
+	else:
+            try:
+		sensor7.begin()
+		seven = True
+            except:
+		seven = False
+                pass
         if eight:
             try:
                 temp8 = sensor8.readTempC()
             except:
+                pass
+	else:
+            try:
+		sensor8.begin()
+		eight = True
+            except:
+		eight = False
                 pass
 
 
@@ -229,19 +251,19 @@ def main():
 
 
         #f.write('{0:0.4F},{1:0.4F},{2:0.2F},{3:0.2F}'.format(temp,	temp2,   s.humidity()/1., s.temperature()/1.))
-        sleep(30)
+        sleep(10)
         s.cancel()
         pi.stop
         f.close
 
-        if(count == 120):
-            call('git stash', shell = True)
-            call('git pull', shell = True)
-            call('git stash pop', shell = True)
-            call('git commit -am "updating data"', shell = True)
-            call('git push', shell = True)
-            count = -1
-        count += 1
+        #if(count == 120):
+        #    call('git stash', shell = True)
+        #    call('git pull', shell = True)
+        #    call('git stash pop', shell = True)
+        #    call('git commit -am "updating data"', shell = True)
+        #    call('git push', shell = True)
+        #    count = -1
+        #count += 1
 
 if __name__=="__main__":
     main()
