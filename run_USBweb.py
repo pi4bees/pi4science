@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 from subprocess import call
 import numpy as np
 from scipy.interpolate import RegularGridInterpolator, Rbf
@@ -18,7 +19,7 @@ def main():
         z = np.array([0, h, 0, 2, h, h-6, 0, h])
         vals = []
         line = ""
-        with open("purple_triangle_data.tsv", 'rb') as fh:
+        with open("/media/pi/pi4science/purple_triangle_data.tsv", 'rb') as fh:
             for line in fh:
                 pass
         vals = line.split()[1:9]
