@@ -41,9 +41,9 @@ def main():
             print("x1,y1,z1,result", file=fh)
             for i in range(len(Xi.flatten())):
                 print(str(Xi.flatten()[i])+","+str(Yi.flatten()[i])+","+str(Zi.flatten()[i])+","+str(result.flatten()[i]), file=fh)"""
-        call('git stash', shell = True)
-        call('git pull origin purple_triangle', shell = True)
-        call('git stash pop', shell = True)
+        #call('git stash', shell = True)
+        #call('git pull origin purple_triangle', shell = True)
+        #call('git stash pop', shell = True)
         call('git commit -am "updating data"', shell = True)
         call('git push', shell = True)
         time.sleep(1800)
