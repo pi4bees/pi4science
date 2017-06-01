@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <style>
 
 body {
@@ -45,7 +44,7 @@ var margin = {top: 20, right: 80, bottom: 30, left: 50},
     //height = 500 - margin.top - margin.bottom;
     height = window.innerHeight/2 - margin.top - margin.bottom;
 
-var parseDate = d3.time.format("%d:%H:%M").parse;
+var  parseDate = d3.time.format("%d:%B:%Y:%H:%M:%S").parse;
 
 var x = d3.time.scale()
     .range([0, width]);
@@ -69,22 +68,24 @@ var line = d3.svg.line()
     .x(function(d) { return x(d.date); })
     .y(function(d) { return y(d.reading); });
 
-var  date_format = d3.time.format("%b/%d/%H:%M").parse;
-
 var svg = d3.select("#area1").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-//d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/purple_triangle/purple_triangle_data.tsv", function(error, data) {
-d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/gh-pages/tmp.txt", function(error, data) {
+d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/purple_triangle/purple_triangle_data.tsv", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
 	delete d.DHT22_hum;
     d.date = parseDate(d.date);
   });
+  data = data.filter(function(d) { return +d.MCP9808_temp > -900 })
+  data = data.filter(function(d) { return +d.MCP9808_temp2 > -900 })
+  data = data.filter(function(d) { return +d.MCP9808_temp3 > -900 })
+  data = data.filter(function(d) { return +d.MCP9808_temp4 > -900 })
+  data = data.filter(function(d) { return +d.MCP9808_temp5 > -900 })
   data = data.filter(function(d) { return +d.DHT22_temp > -900 })
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
@@ -127,7 +128,7 @@ d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/gh-pages/tmp.txt", 
 
   device.append("path")
       .attr("class", "line")
-      .attr("d", function(d) { return line(d.values); })
+      .attr("d", function(d) { return line(d.values);})
       .style("stroke", function(d) { return color(d.name); });
 
   device.append("text")
@@ -144,8 +145,7 @@ var svg2 = d3.select("#area2").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-//d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/purple_triangle/purple_triangle_data.tsv", function(error, data) {
-d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/gh-pages/tmp.txt", function(error, data) {
+d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/purple_triangle/purple_triangle_data.tsv", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
@@ -154,9 +154,6 @@ d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/gh-pages/tmp.txt", 
 	delete d.MCP9808_temp3;
 	delete d.MCP9808_temp4;
 	delete d.MCP9808_temp5;
-	delete d.MCP9808_temp6;
-	delete d.MCP9808_temp7;
-	delete d.MCP9808_temp8;
 	delete d.DHT22_temp;
     d.date = parseDate(d.date);
   });
@@ -214,38 +211,3 @@ d3.tsv("https://raw.githubusercontent.com/pi4bees/pi4science/gh-pages/tmp.txt", 
       .text(function(d) { return d.name; });
 });
 </script>
-        <script>
-//Plotly.d3.csv('https://raw.githubusercontent.com/NathanCompBioakes/pi4science/purple_triangle/purple_triangle_data2.csv', function(err, rows){
-Plotly.d3.csv('https://raw.githubusercontent.com/pi4bees/pi4science/purple_triangle/purple_triangle_data2.csv', function(err, rows){
-      function unpack(rows, key) {
-          return rows.map(function(row) 
-          { return row[key]; });
-      }
-var trace1 = {
-  x:unpack(rows, 'x1'),  y: unpack(rows, 'y1'), z: unpack(rows, 'z1'),
-  mode: 'markers',
-  marker: {
-    size: 12,
-	color: unpack(rows, 'result'),
-    line: {
-      color: unpack(rows, 'result'),
-      width: 0.2
-    },
-    opacity: 1.0,
-    test:"testing"
-  },
-  type: 'scatter3d'
-};
-var data = [trace1];
-var layout = {
-	margin: {
-    l: 0,
-    r: 0,
-    b: 0,
-    t: 0
-  }
-};
-Plotly.newPlot('myDiv', data, layout);
-});
-        /* JAVASCRIPT CODE GOES HERE */
-        </script>
